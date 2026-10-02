@@ -2,8 +2,6 @@
 
 A multi-agent study assistant that turns a lecture file (PDF or PPTX) into a complete exam-preparation kit: summaries, a glossary, concept comparisons, paper recommendations, adaptive practice questions, a mastery dashboard, a revision plan, and a downloadable PDF report. Everything runs through a Gradio web app powered by a locally loaded LLM.
 
-> Final project — **Sarah Mahmoud Fathy**
-
 ---
 
 ## ✨ Features
@@ -131,16 +129,4 @@ Defined in the *Global State* cell:
 
 ---
 
-## ⚠️ Limitations
 
-- Requires a GPU; CPU-only runs will be very slow or may fail.
-- Keyword extraction is based on capitalized terms, so it works best for English lectures with named concepts.
-- Scanned PDFs without a text layer are not supported (no OCR).
-- LLM-generated questions and summaries can contain mistakes; grounding checks reduce but do not eliminate this.
-- The default Comparison inputs and the arXiv search (which adds "agents" to the query) are tuned for a lecture about AI agents.
-
----
-
-## 👩‍💻 Author
-
-**Sarah Mahmoud Fathy**
